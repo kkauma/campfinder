@@ -32,6 +32,11 @@ app.get("/campgrounds/new", (req, res) => {
   res.render("campgrounds/new");
 });
 
+// Test route
+app.get("/campgrounds/create", async (req, res) => {
+  res.render("campgrounds/create");
+});
+
 app.post("/campgrounds", async (req, res) => {
   const campground = new Campground(req.body.campground);
   await campground.save();
@@ -60,11 +65,6 @@ app.delete("/campgrounds/:id", async (req, res) => {
   const { id } = req.params;
   await Campground.findByIdAndDelete(id);
   res.redirect("/campgrounds");
-});
-
-// Test route
-app.get("/campgrounds/create", async (req, res) => {
-  res.render("campgrounds/create");
 });
 
 app.listen(3000, () => {
