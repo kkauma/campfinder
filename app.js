@@ -62,6 +62,11 @@ app.delete("/campgrounds/:id", async (req, res) => {
   res.redirect("/campgrounds");
 });
 
+// Test route
+app.get("/campgrounds/create", async (req, res) => {
+  res.render("campgrounds/create");
+});
+
 app.listen(3000, () => {
   console.log("Serving on port 3000");
 });
