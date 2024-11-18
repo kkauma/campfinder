@@ -9,6 +9,7 @@ const methodOverride = require("method-override");
 const campgrounds = require("./routes/campgrounds.js");
 const reviews = require("./routes/reviews.js");
 
+mongoose.set("strictQuery", true);
 mongoose.connect("mongodb://127.0.0.1:27017/yelp-camp");
 
 const db = mongoose.connection;
