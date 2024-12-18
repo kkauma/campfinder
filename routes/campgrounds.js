@@ -48,7 +48,6 @@ router.get(
     const campground = await Campground.findById(id)
       .populate("reviews")
       .populate("author");
-    console.log(campground);
     if (!campground) {
       req.flash("error", "Can't find that campground!");
       return res.redirect("/campgrounds");
