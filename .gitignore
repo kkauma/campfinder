@@ -1,0 +1,75 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Production build
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Coverage directory used by testing frameworks
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Other
+.sass-cache/
+*.log.*
+logs/
+
+# Typescript build
+*.tsbuildinfo
+
+# Next.js specific
+.next/
+out/
+
+# Nuxt.js specific
+.nuxt/
+node_modules/.cache/
+
+# SvelteKit specific
+.svelte-kit/
+
+# Parcel cache
+.cache/
+
+# React Native
+.expo/
+.expo-shared/
+
+# AWS Amplify
+amplify/#current-cloud-backend/
