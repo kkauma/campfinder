@@ -2,7 +2,6 @@
 <div class="row">
   <h1 class="text-center">New Campground</h1>
   <div class="col-6 offset-3">
-    <h1>Add a New Campground</h1>
     <form
       action="/campgrounds"
       method="POST"
@@ -33,19 +32,6 @@
         />
         <div class="valid-feedback">Looks good!</div>
       </div>
-
-      <input type="file" name="image" id="" multiple />
-      <!-- <div class="mb-3">
-        <label class="form-label" for="image">Image URL</label>
-        <input
-          class="form-control"
-          type="text"
-          id="image"
-          name="campground[image]"
-          required
-        />
-        <div class="valid-feedback">Looks good!</div>
-      </div> -->
 
       <div class="mb-3">
         <label class="form-label" for="price">Campground Price</label>
@@ -78,6 +64,36 @@
         ></textarea>
         <div class="valid-feedback">Looks good!</div>
       </div>
+
+      <div class="mb-3">
+        <label for="formFileMultiple" class="form-label">Upload Images</label>
+        <input
+          class="form-control"
+          type="file"
+          id="image"
+          name="image"
+          multiple
+        />
+      </div>
+
+      <!-- <div class="mb-3">
+        <div class="form-file custom-file">
+          <input
+            type="file"
+            class="form-file-input"
+            id="image"
+            name="image"
+            multiple
+          />
+          <label class="form-file-label" for="image">
+            <span class="form-file-text custom-file-label"
+              >Choose image(s)...</span
+            >
+            <span class="form-file-button">Browse</span>
+          </label>
+        </div>
+      </div> -->
+
       <div class="mb-3">
         <button class="btn btn-success">Add Campground</button>
       </div>
