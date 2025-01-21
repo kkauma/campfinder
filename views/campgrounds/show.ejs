@@ -2,7 +2,9 @@
 <link rel="stylesheet" href="/stylesheets/stars.css" />
 
 <script>
-  const mapToken = "<%= process.env.MAPBOX_TOKEN %>";
+  const mapToken = "<%- process.env.MAPBOX_TOKEN %>";
+  const campground = <%- JSON.stringify(campground) %>
+  console.log(campground.geometry.coordinates);
 </script>
 
 <div class="row">
