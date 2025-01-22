@@ -1,11 +1,11 @@
 # 🏕️ CampFinder
 
 <p align="center">
-  <img src="screenshots/landing-page.png" alt="CampFinder Landing Page" width="100%">
+  <img src="https://images.unsplash.com/photo-1559521783-1d1599583485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="CampFinder Landing Page" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://your-app-url.com">
+  <a href="https://campfinder-bd1w.onrender.com/">
     <img src="https://img.shields.io/badge/Live_Demo-Visit_Site-2ea44f?style=for-the-badge" alt="Live Demo">
   </a>
 </p>
