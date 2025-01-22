@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://campfinder-bd1w.onrender.com/">View Live Demo →</a>
+  <a href="https://campfinder-bd1w.onrender.com/" target="_blank">View Live Demo →</a>
 </p>
 
 CampFinder is a full-stack web application that allows users to discover, review, and share camping locations. Users can create accounts, add new campgrounds, leave reviews, and explore camping locations through an interactive map interface.
