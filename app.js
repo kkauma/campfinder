@@ -18,7 +18,10 @@ const helmet = require("helmet");
 const userRoutes = require("./routes/users.js");
 const campgroundRoutes = require("./routes/campgrounds.js");
 const reviewRoutes = require("./routes/reviews.js");
+
+const MongoStore = require("connect-mongo");
 // const dbUrl = process.env.DB_URL;
+const dbUrl = "mongodb://127.0.0.1:27017/yelp-camp";
 // "mongodb://127.0.0.1:27017/yelp-camp"
 
 mongoose.set("strictQuery", true);
@@ -40,7 +43,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 app.use(express.static(path.join(__dirname, "public")));
 
+const store = MongoStore.create({
+  mongoUrl: dbUrl,
+  touchAfter: 24 * 60 * 60,
+  crypto: {
+    secret: "thisshouldbeabettersecret!",
+  },
+});
+
 const sessionConfig = {
+  store,
   name: "session",
   secret: "thisshouldbeabettersecret!",
   resave: false,
