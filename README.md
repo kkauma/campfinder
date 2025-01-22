@@ -1,5 +1,9 @@
 # CampFinder
 
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1559521783-1d1599583485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="CampFinder Landing Page" width="100%">
+</p>
+
 CampFinder is a full-stack web application that allows users to discover, review, and share camping locations. Users can create accounts, add new campgrounds, leave reviews, and explore camping locations through an interactive map interface.
 
 ## Features
