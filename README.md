@@ -1,34 +1,34 @@
-# CampFinder
+# 🏕️ CampFinder
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1559521783-1d1599583485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="CampFinder Landing Page" width="100%">
+  <img src="screenshots/landing-page.png" alt="CampFinder Landing Page" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://campfinder-bd1w.onrender.com/" target="_blank">View Live Demo →</a>
+  <a href="https://your-app-url.com">
+    <img src="https://img.shields.io/badge/Live_Demo-Visit_Site-2ea44f?style=for-the-badge" alt="Live Demo">
+  </a>
 </p>
 
-CampFinder is a full-stack web application that allows users to discover, review, and share camping locations. Users can create accounts, add new campgrounds, leave reviews, and explore camping locations through an interactive map interface.
+## ✨ Features
 
-## Features
+- **🔐 User Authentication**: Complete user authentication system with registration, login, and logout functionality
+- **🏕️ Campground Management**: Create, read, update, and delete campgrounds
+- **📸 Image Upload**: Multiple image upload support with Cloudinary integration
+- **🗺️ Interactive Maps**: Mapbox integration for location visualization
+- **⭐ Reviews System**: Users can leave ratings and reviews for campgrounds
+- **📱 Responsive Design**: Bootstrap-based responsive layout
+- **🔒 Security Features**: Helmet middleware implementation for enhanced security
 
-- **User Authentication**: Complete user authentication system with registration, login, and logout functionality
-- **Campground Management**: Create, read, update, and delete campgrounds
-- **Image Upload**: Multiple image upload support with Cloudinary integration
-- **Interactive Maps**: Mapbox integration for location visualization
-- **Reviews System**: Users can leave ratings and reviews for campgrounds
-- **Responsive Design**: Bootstrap-based responsive layout
-- **Security Features**: Helmet middleware implementation for enhanced security
+## 🛠️ Technologies Used
 
-## Technologies Used
-
-### Frontend
+### 🎨 Frontend
 
 - EJS (Embedded JavaScript templates)
 - Bootstrap 5
 - Mapbox GL JS
 
-### Backend
+### ⚙️ Backend
 
 - Node.js
 - Express.js
@@ -36,20 +36,20 @@ CampFinder is a full-stack web application that allows users to discover, review
 - Mongoose
 - Passport.js (Authentication)
 
-### Cloud Services
+### ☁️ Cloud Services
 
 - Cloudinary (Image hosting)
 - Mapbox (Maps and Geocoding)
 - MongoDB Atlas (Database hosting)
 
-## Prerequisites
+## 📋 Prerequisites
 
 - Node.js (v20.15.1)
 - MongoDB
 - Cloudinary account
 - Mapbox account
 
-## Environment Variables
+## 🔑 Environment Variables
 
 Create a `.env` file in the root directory with the following variables:
 
@@ -61,7 +61,7 @@ CLOUDINARY_SECRET=your_cloudinary_secret
 MAPBOX_TOKEN=your_mapbox_token
 ```
 
-## Installation
+## 📥 Installation
 
 1. Clone the repository:
 
@@ -84,35 +84,35 @@ node app.js
 
 The application will be available at `http://localhost:3000`
 
-## Usage
+## 📖 Usage
 
 - Visit the homepage to view all campgrounds
 - Create an account to add new campgrounds
 - Click on individual campgrounds to view details and leave reviews
 - Use the map interface to find campgrounds by location
 
-## Features in Detail
+## 🎯 Features in Detail
 
-### Campgrounds
+### 🏕️ Campgrounds
 
 - Create new campgrounds with multiple images
 - Add location data with automatic geocoding
 - Edit and delete your own campgrounds
 - View campground locations on an interactive map
 
-### Reviews
+### ⭐ Reviews
 
 - Leave ratings (1-5 stars) and written reviews
 - Delete your own reviews
 - View all reviews for each campground
 
-### User Authentication
+### 👤 User Authentication
 
 - Secure user registration and login
 - Protected routes for authenticated users
 - User-specific actions (create, edit, delete)
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -120,11 +120,11 @@ The application will be available at `http://localhost:3000`
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
+## 📝 License
 
 This project is licensed under the ISC License.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - Original YelpCamp concept by Colt Steele
 - Mapbox for mapping functionality
